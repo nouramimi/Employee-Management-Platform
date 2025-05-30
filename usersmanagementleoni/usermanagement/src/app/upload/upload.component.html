@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="page-header">
+    <h1 i18n="@@upload-header-title">{{ 'upload-header-title' | translate }}
+
+    </h1>
+  </div>
+
+  <div class="container">
+    <div class="col-md-4"></div>
+    <div class="col-md-4 full">
+      <form>
+        <input type="file" id="files" name="files" multiple="multiple" (change)="onFileChange($event)" i18n-aria-label="@@upload-input-aria-label" aria-label="Select files to upload" />
+        <p style="text-align: right; margin-top: 20px;">
+          <input type="submit" value="Upload Files" class="btn btn-lg btn-primary" i18n-value="@@upload-button-value" />
+        </p>
+      </form>
+    </div>
+    <div class="col-md-4"></div>
+  </div>
+</div>
+

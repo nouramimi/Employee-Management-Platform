@@ -1,0 +1,30 @@
+<div class="container mt-4">
+  <h2 class="mb-4" i18n="@@edit-employee-title">{{ 'edit-employee-title' | translate }}</h2>
+  <hr>
+  <form (ngSubmit)="saveEmployee()" class="shadow-sm p-4 bg-white rounded">
+    <div class="mb-3">
+      <label for="id" class="form-label" i18n="@@label-id">{{ 'label-id' | translate }}</label>
+      <input id="id" [(ngModel)]="employee.id" name="id" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="userName" class="form-label" i18n="@@label-user-name">{{ 'label-user-name' | translate }}</label>
+      <input id="userName" [(ngModel)]="employee.userName" name="userName" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="userLogin" class="form-label" i18n="@@label-user-login">{{ 'label-user-login' | translate }}</label>
+      <input id="userLogin" [(ngModel)]="employee.userLogin" name="userLogin" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="workedHours" class="form-label" i18n="@@label-worked-hours">{{ 'label-worked-hours' | translate }}</label>
+      <input id="workedHours" [(ngModel)]="employee.workedHours" name="workedHours" class="form-control" required />
+    </div>
+    <div class="mb-3">
+      <label for="day" class="form-label" i18n="@@label-day">{{ 'label-day' | translate }}:</label>
+      <input id="day" [(ngModel)]="employee.day" name="day" class="form-control" required />
+    </div>
+    <div class="d-flex justify-content-between mt-4">
+      <button type="submit" class="btn btn-success" i18n="@@button-save">{{ 'button-save' | translate }}</button>
+      <button type="button" class="btn btn-secondary" (click)="backToList()" i18n="@@button-back-to-list">{{ 'button-back-to-list' | translate }}</button>
+    </div>
+  </form>
+</div>

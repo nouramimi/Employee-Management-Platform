@@ -1,0 +1,43 @@
+<section class="ftco-section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-7 col-lg-5">
+        <div class="login-wrap p-4 p-md-5">
+          <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fa fa-user-o"></span>
+          </div>
+          <h3 i18n="@@sign-in-title" class="text-center mb-4">{{ 'sign-in-title' | translate }}</h3>
+          <div *ngIf="errorMessage" class="alert alert-danger">
+            {{ errorMessage }}
+          </div>
+
+          <form (ngSubmit)="onSubmit()" class="login-form">
+            <div class="form-group">
+              <input type="text" class="form-control rounded-left" placeholder="{{ 'username-placeholder' | translate }}" i18n-placeholder="@@username-placeholder" [(ngModel)]="user.username" name="username" required />
+            </div>
+            <div class="form-group d-flex">
+              <input type="password" class="form-control rounded-left" placeholder="{{ 'password-placeholder' | translate }}" i18n-placeholder="@@password-placeholder" [(ngModel)]="user.password" name="password" required />
+              <span class="password-toggle-icon" (click)="togglePasswordVisibility()">
+                <i class="fas" [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+              </span>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="form-control btn btn-primary rounded submit px-3" i18n="@@login-button">{{ 'login-button' | translate }}</button>
+            </div>
+            <div class="form-group d-md-flex">
+              <div class="w-50">
+                <label class="checkbox-wrap checkbox-primary" i18n="@@remember-me-label">{{ 'remember-me-label' | translate }}
+                  <input type="checkbox" checked>
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+              <div class="w-50 text-md-right">
+                <a href="#" i18n="@@forgot-password-link">{{ 'forgot-password-link' | translate }}</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

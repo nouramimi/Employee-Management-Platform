@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="add-employee-title" datatype="html">
+        <source>Add Employee</source>
+        <target>Ajouter un employé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-employee/add-employee.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label-user-name" datatype="html">
+        <source>User Name:</source>
+        <target>Nom d'utilisateur :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-employee/add-employee.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/edit-employee/edit-employee.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label-user-login" datatype="html">
+        <source>User Login:</source>
+        <target>Identifiant :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-employee/add-employee.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/edit-employee/edit-employee.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label-worked-hours" datatype="html">
+        <source>Worked Hours:</source>
+        <target>Heures travaillées :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-employee/add-employee.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/edit-employee/edit-employee.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label-day" datatype="html">
+        <source>Day:</source>
+        <target>Jour :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-employee/add-employee.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/edit-employee/edit-employee.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="button-add-employee" datatype="html">
+        <source>Add Employee</source>
+        <target>Ajouter un employé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-employee/add-employee.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">5,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="button-back-to-list" datatype="html">
+        <source>Back to List</source>
+        <target>Retour à la liste</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/add-employee/add-employee.component.html</context>
+          <context context-type="linenumber">23,26</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/edit-employee/edit-employee.component.html</context>
+          <context context-type="linenumber">27,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="edit-employee-title" datatype="html">
+        <source>Edit Employee</source>
+        <target>Modifier un employé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/edit-employee/edit-employee.component.html</context>
+          <context context-type="linenumber">2,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="label-id" datatype="html">
+        <source>ID:</source>
+        <target>ID :</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/edit-employee/edit-employee.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="button-save" datatype="html">
+        <source>Save</source>
+        <target>Enregistrer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/edit-employee/edit-employee.component.html</context>
+          <context context-type="linenumber">26,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="employee-management-title" datatype="html">
+        <source>Employee Management</source>
+        <target>Gestion des employés</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">3,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="filter-user-name-placeholder" datatype="html">
+        <source>Filter by User Name</source>
+        <target>Filtrer par nom d'utilisateur</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="filter-user-login-placeholder" datatype="html">
+        <source>Filter by User Login</source>
+        <target>Filtrer par identifiant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="button-search" datatype="html">
+        <source>Search</source>
+        <target>Rechercher</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">11,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="table-header-id" datatype="html">
+        <source>ID</source>
+        <target>ID</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="table-header-username" datatype="html">
+        <source>User Name</source>
+        <target>Nom d'utilisateur</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">18,19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="table-header-userlogin" datatype="html">
+        <source>User Login</source>
+        <target>Identifiant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">19,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="button-edit" datatype="html">
+        <source>Edit</source>
+        <target>Modifier</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">43,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="button-view" datatype="html">
+        <source>View</source>
+        <target>Voir</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+          <context context-type="linenumber">44,45</context>
+        </context-group>
+      </trans-unit>
+<trans-unit id="button-delete" datatype="html">
+  <source>Delete</source>
+  <target>Supprimer</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/employee-management/employee-management.component.html</context>
+    <context context-type="linenumber">45,47</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="sign-in-title" datatype="html">
+  <source>Sign In</source>
+  <target>Connexion</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/login/login.component.html</context>
+    <context context-type="linenumber">9,10</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="username-placeholder" datatype="html">
+  <source>Username</source>
+  <target>Nom d'utilisateur</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/login/login.component.html</context>
+    <context context-type="linenumber">16</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="password-placeholder" datatype="html">
+  <source>Password</source>
+  <target>Mot de passe</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/login/login.component.html</context>
+    <context context-type="linenumber">19</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="login-button" datatype="html">
+  <source>Login</source>
+  <target>Connexion</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/login/login.component.html</context>
+    <context context-type="linenumber">25,26</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="remember-me-label" datatype="html">
+  <source>Remember me <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input type=&quot;checkbox&quot; checked&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkmark&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+  <target>Se souvenir de moi <x id="TAG_INPUT" ctype="x-input" equiv-text="&lt;input type=&quot;checkbox&quot; checked&gt;"/><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;checkmark&quot;&gt;"/><x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/login/login.component.html</context>
+    <context context-type="linenumber">29,32</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="forgot-password-link" datatype="html">
+  <source>Forgot your password?</source>
+  <target>Mot de passe oublié</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/login/login.component.html</context>
+    <context context-type="linenumber">35,37</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="navbar-brand" datatype="html">
+  <source>MyApp</source>
+  <target>MonApp</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+    <context context-type="linenumber">2,4</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="navbar-toggler-aria-label" datatype="html">
+  <source>Toggle navigation</source>
+  <target>Basculer la navigation</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+    <context context-type="linenumber">4</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="home-dropdown" datatype="html">
+  <source>Home</source>
+  <target>Accueil</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+    <context context-type="linenumber">10,11</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="home-link" datatype="html">
+  <source>Home</source>
+  <target>Accueil</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+    <context context-type="linenumber">12,13</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="upload-link" datatype="html">
+  <source>Upload</source>
+  <target>Télécharger</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+    <context context-type="linenumber">13,14</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="employees-link" datatype="html">
+  <source>Employees</source>
+  <target>Employés</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+    <context context-type="linenumber">14,16</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="login-link" datatype="html">
+  <source>Login</source>
+  <target>Connexion</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+    <context context-type="linenumber">18,20</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="register-link" datatype="html">
+  <source>Register</source>
+  <target>Inscription</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+    <context context-type="linenumber">21,23</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="logout-button" datatype="html">
+  <source>Logout</source>
+  <target>Déconnexion</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/navbar/navbar.component.html</context>
+    <context context-type="linenumber">28,30</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="sign-up-title" datatype="html">
+  <source>Sign Up</source>
+  <target>Inscription</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">8,10</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="username-label" datatype="html">
+  <source>Username</source>
+  <target>Nom d'utilisateur</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">16,18</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="username-error" datatype="html">
+  <source>Username is required.</source>
+  <target>Le nom d'utilisateur est requis.</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">27,28</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="email-label" datatype="html">
+  <source>Email</source>
+  <target>Email</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">32,33</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="email-error" datatype="html">
+  <source>A valid email is required.</source>
+  <target>Un email valide est requis.</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">43,44</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="password-label" datatype="html">
+  <source>Password</source>
+  <target>Mot de passe</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">48,50</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="password-error" datatype="html">
+  <source> Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character. </source>
+  <target> Le mot de passe doit comporter au moins 8 caractères, contenir une lettre majuscule, une lettre minuscule, un chiffre et un caractère spécial. </target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">66,68</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="create-account-button" datatype="html">
+  <source>Create account</source>
+  <target>Créer un compte</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">70</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="already-have-account" datatype="html">
+  <source> Already have an account? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;/login&quot; class=&quot;loginhere-link&quot;&gt;"/>Log in<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></source>
+  <target> Vous avez déjà un compte ? <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;/login&quot; class=&quot;loginhere-link&quot;&gt;"/>Connectez-vous<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/></target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/register/register.component.html</context>
+    <context context-type="linenumber">75,77</context>
+  </context-group>
+</trans-unit>
+<trans-unit id="upload-header-title" datatype="html">
+  <source>File upload</source>
+  <target>Téléversement de fichiers</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/upload/upload.component.html</context>
+    <context context-type="linenumber">3,8</context>
+  </context-group>
+</trans-unit>
+
+<trans-unit id="upload-input-aria-label" datatype="html">
+  <source>Select files to upload</source>
+  <target>Sélectionnez des fichiers à téléverser</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/upload/upload.component.html</context>
+    <context context-type="linenumber">12,13</context>
+  </context-group>
+</trans-unit>
+
+<trans-unit id="upload-button-value" datatype="html">
+  <source>Upload Files</source>
+  <target>Téléverser des fichiers</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/upload/upload.component.html</context>
+    <context context-type="linenumber">14</context>
+  </context-group>
+</trans-unit>
+
+<trans-unit id="employee-details-title" datatype="html">
+  <source>Employee Details</source>
+  <target>Détails de l'employé</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/view-employee/view-employee.component.html</context>
+    <context context-type="linenumber">2,4</context>
+  </context-group>
+</trans-unit>
+
+<trans-unit id="employee-details-username" datatype="html">
+  <source>User Name:</source>
+  <target>Nom d'utilisateur :</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/view-employee/view-employee.component.html</context>
+    <context context-type="linenumber">7,8</context>
+  </context-group>
+</trans-unit>
+
+<trans-unit id="employee-details-userlogin" datatype="html">
+  <source>User Login:</source>
+  <target>Identifiant utilisateur :</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/view-employee/view-employee.component.html</context>
+    <context context-type="linenumber">13,14</context>
+  </context-group>
+</trans-unit>
+
+<trans-unit id="employee-details-workedhours" datatype="html">
+  <source>Worked Hours:</source>
+  <target>Heures travaillées :</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/view-employee/view-employee.component.html</context>
+    <context context-type="linenumber">19,20</context>
+  </context-group>
+</trans-unit>
+
+<trans-unit id="employee-details-day" datatype="html">
+  <source>Day:</source>
+  <target>Jour :</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/view-employee/view-employee.component.html</context>
+    <context context-type="linenumber">25,26</context>
+  </context-group>
+</trans-unit>
+
+<trans-unit id="back-to-list-button" datatype="html">
+  <source>Back to List</source>
+  <target>Retour à la liste</target>
+  <context-group purpose="location">
+    <context context-type="sourcefile">src/app/view-employee/view-employee.component.html</context>
+    <context context-type="linenumber">29,32</context>
+  </context-group>
+</trans-unit>
+    </body>
+  </file>
+</xliff>
+
+  

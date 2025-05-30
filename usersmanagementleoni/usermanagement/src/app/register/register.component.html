@@ -1,0 +1,79 @@
+<div class="sign-up-container">
+  <div class="container">
+    <div class="sign-up-content">
+      <form (ngSubmit)="register()" class="signup-form" #registerForm="ngForm" novalidate>
+        <div class="icon d-flex align-items-center justify-content-center">
+          <span class="fa fa-user-o"></span>
+        </div>
+        <h3 i18n="@@sign-up-title" class="text-center mb-4">{{ 'sign-up-title' | translate }}</h3>
+        <div>
+          <hr>
+          <hr>
+          <hr>
+        </div>
+
+        <div class="form-textbox">
+          <label for="username" i18n="@@username-label">{{ 'username-label' | translate }}</label>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            [(ngModel)]="user.username"
+            required
+            #username="ngModel"
+            i18n-placeholder="@@username-placeholder"
+          />
+          <div *ngIf="username.invalid && username.touched" class="error-message" i18n="@@username-error">
+            {{ 'username-error' | translate }}
+          </div>
+        </div>
+
+        <div class="form-textbox">
+          <label for="email" i18n="@@email-label">{{ 'email-label' | translate }}</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            [(ngModel)]="user.email"
+            required
+            #email="ngModel"
+            i18n-placeholder="@@email-placeholder"
+          />
+          <div *ngIf="email.invalid && email.touched" class="error-message" i18n="@@email-error">
+            {{ 'email-error' | translate }}
+          </div>
+        </div>
+
+        <div class="form-textbox">
+          <label for="password" i18n="@@password-label">{{ 'password-label' | translate }}</label>
+          <input
+            type="{{showPassword ? 'text' : 'password'}}"
+            name="password"
+            id="password"
+            [(ngModel)]="user.password"
+            required
+            pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*[0-9])(?=.*[#?!@$%^&*-]).{8,}$"
+            #password="ngModel"
+            i18n-placeholder="@@password-placeholder"
+          />
+          <span class="password-toggle-icon" (click)="togglePasswordVisibility()">
+            <i class="fas" [ngClass]="showPassword ? 'fa-eye-slash' : 'fa-eye'"></i>
+          </span>
+        </div>
+        <hr>
+        
+        <div *ngIf="password.invalid && password.touched" class="error-message text-danger" i18n="@@password-error">
+          {{ 'password-error' | translate }}
+        </div>
+        
+        <div class="form-textbox">
+          <input type="submit" name="submit" id="submit" class="submit" value="Create account" [disabled]="registerForm.invalid" i18n-value="@@create-account-button" />
+        </div>
+      </form>
+
+      <p class="loginhere" i18n="@@already-have-account">
+        {{ 'already-have-account' | translate }} <a href="/login" class="loginhere-link">Log in</a>
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+.form-group.d-flex {
+    position: relative;
+  }
+  
+  .password-toggle-icon {
+    position: absolute;
+    right: 10px; /* Adjust the position as needed */
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #666;
+    padding: 5px;
+  }
+  
+  .password-toggle-icon i {
+    font-size: 16px; /* Adjust the icon size as needed */
+  }
+  

@@ -1,0 +1,231 @@
+/* Example styles */
+.error {
+    color: red;
+  }
+  body{
+    margin-left: 10px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th,
+  .employee-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .id-column {
+    width: 5%;
+  }
+  
+  .username-column {
+    width: 20%;
+  }
+  
+  .userlogin-column {
+    width: 20%;
+  }
+  
+  .hours-column {
+    width: 15%;
+  }
+  
+  .day-column {
+    width: 20%;
+  }
+  
+  .btn {
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-edit {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .btn-delete {
+    background-color: #f44336; /* Red */
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
+  .employee-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-left: 20px;
+  }
+  th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  td {
+    padding: 5px;
+    vertical-align: middle;
+  }
+  
+  input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px; /* Optional: adds space between button and table */
+}
+
+.button-container button {
+    padding: 10px 20px;
+    background-color: #366992;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"] {
+    width: 150px; /* Adjust the width as needed */
+    margin-right: 10px; /* Adds margin to the right */
+    padding: 5px; /* Adds some padding for better appearance */
+    border-radius: 4px; /* Adds rounded corners */
+    border: 1px solid #ccc; /* Adds a light border */
+}
+
+.button-container {
+    margin-bottom: 15px; /* Adds space between the button and filters */
+}
+
+.filter-input {
+    margin-right: 50px;
+    margin-left: 20px;
+    max-width: 200px;
+  }
+  
+  .button-container {
+    margin-bottom: 10px;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .employee-table th {
+    background-color: #f4f4f4;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .button-container {
+    margin-bottom: 1rem;
+  }
+  
+  .filter-container {
+    margin-bottom: 1rem;
+  }
+  
+  .filter-input {
+    margin-right: 0.5rem;
+  }
+  
+  .employee-table {
+    width: 100%;
+  }
+  
+  .p-paginator {
+    margin: 1rem 0;
+  }
+  
+  .p-table {
+    width: 100%;
+  }
+  
+  .actions-column button {
+    margin-right: 0.5rem;
+  }
+
+  .pagination-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .pagination-container pagination-controls {
+    display: inline-block;
+  }
+  
+  .pagination-container .pagination-controls {
+    font-size: 18px;
+  }
+  
+  .pagination-controls ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .pagination-controls li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  .pagination-controls a {
+    margin-top: 70px;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f8f9fa;
+    color: #007bff;
+    font-size: larger;
+  }
+  
+  .pagination-controls a:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+   

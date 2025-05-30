@@ -1,0 +1,31 @@
+<div class="container mt-4">
+  <h2 class="mb-4" i18n="@@employee-details-title">{{ 'employee-details-title' | translate }}</h2>
+  <hr>
+  <div class="card p-4 shadow-sm">
+    <div class="mb-3">
+      <label class="form-label">
+        <strong i18n="@@employee-details-username">{{ 'employee-details-username' | translate }}:</strong> 
+        {{ employee?.userName }}
+      </label>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">
+        <strong i18n="@@employee-details-userlogin">{{ 'employee-details-userlogin' | translate }}:</strong> 
+        {{ employee?.userLogin }}
+      </label>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">
+        <strong i18n="@@employee-details-workedhours">{{ 'employee-details-workedhours' | translate }}:</strong> 
+        {{ employee?.workedHours }}
+      </label>
+    </div>
+    <div class="mb-3">
+      <label class="form-label">
+        <strong i18n="@@employee-details-day">{{ 'employee-details-day' | translate }}:</strong> 
+        {{ employee?.day }}
+      </label>
+    </div>
+    <button class="btn btn-primary mt-3" (click)="backToList()" i18n="@@back-to-list-button">{{ 'back-to-list-button' | translate }}</button>
+  </div>
+</div>
